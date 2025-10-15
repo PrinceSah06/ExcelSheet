@@ -1,0 +1,4 @@
+@import "tailwindcss";
+.p-paginator .p-paginator-page {
+  margin: 0 8px;  /* left and right space between page numbers */
+}

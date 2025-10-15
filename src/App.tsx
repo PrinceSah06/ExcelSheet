@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import  { useState, useEffect } from "react";
 import { DataTable } from "primereact/datatable";
 import { Column } from "primereact/column";
 import { InputSwitch } from "primereact/inputswitch";
@@ -12,6 +12,8 @@ import { setSelectedIds } from "./store/selectedRowsSlices";
 
 function App() {
   // Paging state
+
+  
   const [first, setFirst] = useState(0);
   const [rows, setRows] = useState(12);
   const [totalRecords, setTotalRecords] = useState(0);
@@ -115,3 +117,15 @@ function App() {
 }
 
 export default App;
+
+// import React from 'react'
+
+// function App() {
+//   return (
+//     <div>
+//       hello
+//     </div>
+//   )
+// }
+
+// export default App
